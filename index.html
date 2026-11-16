@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي</title>
+    <style>
+        body {
+            font-family: Arial, Tahoma, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #ccc;
+            display: block;
+            margin: 10px auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        table, th, td {
+            border: 1px solid #bbb;
+        }
+        th, td {
+            padding: 10px;
+            text-align: right;
+        }
+        th {
+            background-color: #eee;
+        }
+        form {
+            margin-top: 15px;
+        }
+        .form-group {
+            margin-bottom: 12px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <nav>
+        <a href="#home">الرئيسية</a>
+        <a href="#about">نبذة عني</a>
+        <a href="#skills">المهارات</a>
+        <a href="#hobbies">الهوايات</a>
+        <a href="#contact">اتصل بي</a>
+    </nav>
+
+   
+    <header id="home">
+        <h1>WELCOME</h1>
+        <p>مشروع مادة تصميم وتطوير مواقع الويب - جامعة العرب</p>
+    </header>
+
+   
+    <div class="container">
+        <h2>الصفحة الرئيسية</h2>
+        <div style="text-align: center;">
+            <img src="c:\Users\saleh\OneDrive\الصور\لقطات الشاشة\لقطة شاشة 2026-11-16 162413.png" alt="شعارالجامعه" class="profile-img">
+        </div>
+        <p>أهلاً بك زارنا الكريم في صفحتي الشخصية البسيطة. تم تصميم هذا الموقع كجزء من متطلبات مقرر تصميم الويب لتقديم نبذة مختصرة عن خلفيتي التعليمية ومهاراتي واهتماماتي.</p>
+    </div>
+
+    <!-- About Me Section -->
+    <div class="container" id="about">
+        <h2>نبذة عني</h2>
+        <p><span>الاسم الكامل:</span>صالح عبدالله كرامه عاصم</p>
+        <p><span>التخصص الأكاديمي:</span> تقنية المعلومات - السنة الثالثة</p>
+        <p>أنا طالب جامعي شغوف بتعلم تقنيات الويب وبرمجة وتطوير التطبيقات البسيطة. أسعى دائماً لتطوير مهاراتي البرمجية واكتساب خبرات جديدة في مجال تكنولوجيا المعلومات.</p>
+        
+        <h3>الخلفية التعليمية والمؤهلات الأكاديمية</h3>
+        <table>
+            <tr>
+                <th>المؤهل الأكاديمي</th>
+                <th>المؤسسة التعليمية</th>
+                <th>سنة الالتحاق / التخرج</th>
+            </tr>
+            <tr>
+                <td>الثانوية العامة (قسم علمي)</td>
+                <td>مدرسة الامير مشعل الثانوية</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>بكالوريوس تقنية معلومات</td>
+                <td>جامعة العرب</td>
+                <td>2023 - 2026 (حالي)</td>
+            </tr>
+        </table>
+    </div>
+
+   
+    <div class="container" id="skills">
+        <h2>المهارات</h2>
+        <p>خلال دراستي الجامعية، اكتسبت مجموعة من المهارات التقنية والشخصية:</p>
+        <ul>
+            <li>أساسيات لغة HTML و CSS وتصميم الواجهات</li>
+            <li>مبادئ البرمجة بلغة جافا سكريبت (JavaScript)</li>
+            <li>معرفة جيدة بقواعد بيانات SQL وإدارة الجداول</li>
+            <li>المهارات الشخصية: العمل الجماعي وحل المشكلات</li>
+        </ul>
+    </div>
+
+    
+    <div class="container" id="hobbies">
+        <h2>الهوايات والاهتمامات</h2>
+        <p>في أوقات فراغي، أستمتع بالأنشطة التالية:</p>
+        <ol>
+            <li>قراءة الكتب العلمية والتقنية</li>
+            <li>تطوير مشاريع برمجية صغيرة ومفتوحة المصدر</li>
+            <li>ممارسة الرياضة وخاصة كرة القدم</li>
+            <li>تصفح الإنترنت ومتابعة أحدث التقنيات</li>
+        </ol>
+    </div>
+
+   
+    <div class="container" id="contact">
+        <h2>اتصل بي</h2>
+        <p>يسعدني تواصلكم معي أو إرسال ملاحظاتكم حول هذا المشروع البسيط:</p>
+        <form onsubmit="event.preventDefault(); alert('تم إرسال الرسالة بنجاح. شكراً لتواصلك!');">
+            <div class="form-group">
+                <label for="fullname">الاسم الكامل:</label>
+                <input type="text" id="fullname" name="fullname" required placeholder="أدخل اسمك هنا">
+            </div>
+            <div class="form-group">
+                <label for="email">عنوان البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" required placeholder="example@university.edu">
+            </div>
+            <div class="form-group">
+                <label for="subject">الموضوع:</label>
+                <input type="text" id="subject" name="subject" required placeholder="موضوع الرسالة">
+            </div>
+            <div class="form-group">
+                <label for="message">الرسالة:</label>
+                <textarea id="message" name="message" rows="4" required placeholder="اكتب رسالتك هنا..."></textarea>
+            </div>
+            <button type="submit">إرسال الرسالة</button>
+        </form>
+    </div>
+
+   
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2026 -</p>
+    </footer>
+
+</body>
+</html>
